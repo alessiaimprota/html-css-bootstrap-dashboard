@@ -22,7 +22,7 @@
       <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img src="./img/duck.png" alt="logo" class="logo" />
+            <img src="./img/duck.png" alt="logo" class="logo" style="height: 3rem;" />
           </a>
           <button
             class="navbar-toggler"
@@ -56,13 +56,13 @@
               </li>
             </ul>
             <form class="d-flex" role="search">
-              <input
-                class="form-control me-2 bg-light"
+              <input id="navbar-placeholder"
+                class="form-control me-2"
                 type="search"
-                placeholder="Cerca.."
+                placeholder="Cerca..."
                 aria-label="Search"
               />
-              <button class="btn btn-outline-light" type="submit">
+              <button class="btn btn-outline-light" type="submit" id="navbar-btn">
                 Search
               </button>
             </form>
@@ -264,8 +264,8 @@
                     </td>
                   </tr>
                   <tr>
-                    <td scope="row">3</td>
-                    <td class="d-none d-lg-table-cell">La storia infinita</td>
+                    <td scope="row">La storia infinita</td>
+                    <td class="d-none d-lg-table-cell">-</td>
                     <td>
                       <span class="badge text-bg-success">Disponibile</span>
                     </td>
@@ -285,9 +285,10 @@
           </div>
           <div class="col-lg-3 col-md-12 col-12">
             <div class="card">
-              <div class="card-header">Featured</div>
+              <div class="card-header">Todo</div>
               <div class="card-body">
                 <ul class="list-group">
+
                   <li class="list-group-item">
                     <input
                       class="form-check-input me-1"
@@ -298,22 +299,24 @@
                     <label
                       class="form-check-label stretched-link"
                       for="firstCheckboxStretched"
-                      >First checkbox</label
+                      >Chiamare segreteria</label
                     >
                   </li>
+
                   <li class="list-group-item">
                     <input
                       class="form-check-input me-1"
                       type="checkbox"
                       value=""
-                      id="secondCheckboxStretched"
+                      id="firstCheckboxStretched"
                     />
                     <label
                       class="form-check-label stretched-link"
-                      for="secondCheckboxStretched"
-                      >Second checkbox</label
+                      for="firstCheckboxStretched"
+                      >Mandare avvisi prestiti </label
                     >
                   </li>
+
                   <li class="list-group-item">
                     <input
                       class="form-check-input me-1"
@@ -324,20 +327,22 @@
                     <label
                       class="form-check-label stretched-link"
                       for="thirdCheckboxStretched"
-                      >Third checkbox</label
+                      >Ordinare nuovi libri</label
                     >
                   </li>
                 </ul>
               </div>
             </div>
+
+            
             <div class="card mt-5">
-              <div class="card-header">Featured</div>
+              <div class="card-header">F.A.Q.</div>
               <div class="card-body">
                 <div
                   class="accordion accordion-flush"
                   id="accordionFlushExample"
                 >
-                  <div class="accordion-item">
+                <div class="accordion-item">
                     <h2 class="accordion-header">
                       <button
                         class="accordion-button collapsed"
@@ -347,7 +352,7 @@
                         aria-expanded="false"
                         aria-controls="flush-collapseOne"
                       >
-                        Accordion Item #1
+                        Come posso aggiungere un libro?
                       </button>
                     </h2>
                     <div
@@ -356,10 +361,7 @@
                       data-bs-parent="#accordionFlushExample"
                     >
                       <div class="accordion-body">
-                        Placeholder content for this accordion, which is
-                        intended to demonstrate the
-                        <code>.accordion-flush</code> class. This is the first
-                        item’s accordion body.
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque quos tempora saepe quo! 
                       </div>
                     </div>
                   </div>
@@ -373,7 +375,7 @@
                         aria-expanded="false"
                         aria-controls="flush-collapseTwo"
                       >
-                        Accordion Item #2
+                        Come posso accedere all'anagrafica utenti?
                       </button>
                     </h2>
                     <div
@@ -382,11 +384,7 @@
                       data-bs-parent="#accordionFlushExample"
                     >
                       <div class="accordion-body">
-                        Placeholder content for this accordion, which is
-                        intended to demonstrate the
-                        <code>.accordion-flush</code> class. This is the second
-                        item’s accordion body. Let’s imagine this being filled
-                        with some actual content.
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque quos tempora saepe quo! 
                       </div>
                     </div>
                   </div>
@@ -400,7 +398,7 @@
                         aria-expanded="false"
                         aria-controls="flush-collapseThree"
                       >
-                        Accordion Item #3
+                        Posso usare questa dashboard da mobile?
                       </button>
                     </h2>
                     <div
@@ -409,14 +407,7 @@
                       data-bs-parent="#accordionFlushExample"
                     >
                       <div class="accordion-body">
-                        Placeholder content for this accordion, which is
-                        intended to demonstrate the
-                        <code>.accordion-flush</code> class. This is the third
-                        item’s accordion body. Nothing more exciting happening
-                        here in terms of content, but just filling up the space
-                        to make it look, at least at first glance, a bit more
-                        representative of how this would look in a real-world
-                        application.
+                        Sì, altrimenti ho perso tempo a renderla responsive
                       </div>
                     </div>
                   </div>
@@ -427,10 +418,12 @@
         </div>
       </div>
     </main>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
-    ></script>
+    ></script>    
+
   </body>
 </html>

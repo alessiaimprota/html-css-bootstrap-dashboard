@@ -1,3 +1,10 @@
-.logo{
-    height: 50px;
+
+#navbar-placeholder{
+    background-color: white;
+    color: grey
 }
+
+#navbar-placeholder::placeholder {
+  color: grey;
+}
+
