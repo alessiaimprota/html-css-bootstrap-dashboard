@@ -19,7 +19,7 @@
 
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="./img/duck.png" alt="logo" class="logo" style="height: 3rem;" />
@@ -55,8 +55,8 @@
                 <a class="nav-link" href="#">Help</a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input id="navbar-placeholder"
+            <div class="d-flex gap-2" role="search">
+              <input id="navbar-placeholder" 
                 class="form-control me-2"
                 type="search"
                 placeholder="Cerca..."
@@ -65,7 +65,7 @@
               <button class="btn btn-outline-light" type="submit" id="navbar-btn">
                 Search
               </button>
-            </form>
+            </div>
           </div>
         </div>
       </nav>
