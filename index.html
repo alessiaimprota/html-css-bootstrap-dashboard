@@ -11,6 +11,10 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./style/stylesheet.css" />
+    <script
+      src="https://kit.fontawesome.com/ed8d2435d4.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
@@ -80,7 +84,9 @@
                 <thead>
                   <tr>
                     <th scope="col" class="col-6">Titolo</th>
-                    <th scope="col" class="d-none d-lg-table-cell">Data di Prestito</th>
+                    <th scope="col" class="d-none d-lg-table-cell">
+                      Data di Prestito
+                    </th>
                     <th scope="col">Stato</th>
                     <th scope="col">Azioni</th>
                   </tr>
@@ -90,75 +96,188 @@
                     <td scope="row">I pilastri della terra</td>
                     <td class="d-none d-lg-table-cell">-</td>
                     <td>
-                        <span class="badge text-bg-success">Disponibile</span>
+                      <span class="badge text-bg-success">Disponibile</span>
                     </td>
-                    <td>@mdo</td>
+                    <td class="d-flex gap-1">
+                      <button class="btn p-1 btn-outline-secondary">
+                        <i class="fa-solid fa-pencil"></i>
+                      </button>
+                      <button class="btn p-1 btn-outline-secondary">
+                        <i class="fa-solid fa-trash opacity-80"></i>
+                      </button>
+                    </td>
                   </tr>
                   <tr>
                     <td scope="row">I promessi sposi</td>
                     <td class="d-none d-lg-table-cell">-</td>
-                    <td><span class="badge text-bg-success">Disponibile</span></td>
-                    <td>@fat</td>
+                    <td>
+                      <span class="badge text-bg-success">Disponibile</span>
+                    </td>
+                    <td class="d-flex gap-1">
+                      <button class="btn p-1 btn-outline-secondary">
+                        <i class="fa-solid fa-pencil"></i>
+                      </button>
+                      <button class="btn p-1 btn-outline-secondary">
+                        <i class="fa-solid fa-trash opacity-80"></i>
+                      </button>
+                    </td>
                   </tr>
                   <tr>
                     <td scope="row">Il signore degli anelli</td>
                     <td class="d-none d-lg-table-cell">18/10/23</td>
-                    <td><span class="badge text-bg-warning text-light">In prestito</span></td>
-                    <td>@social</td>
+                    <td>
+                      <span class="badge text-bg-warning text-light"
+                        >In prestito</span
+                      >
+                    </td>
+                    <td class="d-flex gap-1">
+                      <button class="btn p-1 btn-outline-secondary">
+                        <i class="fa-solid fa-pencil"></i>
+                      </button>
+                      <button class="btn p-1 btn-outline-secondary">
+                        <i class="fa-solid fa-trash opacity-80"></i>
+                      </button>
+                    </td>
                   </tr>
                   <tr>
                     <td scope="row">Harry Potter e la pietra filosofale</td>
                     <td class="d-none d-lg-table-cell">-</td>
-                    <td><span class="badge text-bg-success">Disponibile</span></td>
-                    <td>@mdo</td>
+                    <td>
+                      <span class="badge text-bg-success">Disponibile</span>
+                    </td>
+                    <td class="d-flex gap-1">
+                      <button class="btn p-1 btn-outline-secondary">
+                        <i class="fa-solid fa-pencil"></i>
+                      </button>
+                      <button class="btn p-1 btn-outline-secondary">
+                        <i class="fa-solid fa-trash opacity-80"></i>
+                      </button>
+                    </td>
                   </tr>
                   <tr>
                     <td scope="row">Il codice da vinci</td>
                     <td class="d-none d-lg-table-cell">-</td>
-                    <td><span class="badge text-bg-danger">Non disponibile</span></td>
-                    <td>@fat</td>
+                    <td>
+                      <span class="badge text-bg-danger">Non disponibile</span>
+                    </td>
+                    <td class="d-flex gap-1">
+                      <button class="btn p-1 btn-outline-secondary">
+                        <i class="fa-solid fa-pencil"></i>
+                      </button>
+                      <button class="btn p-1 btn-outline-secondary">
+                        <i class="fa-solid fa-trash opacity-80"></i>
+                      </button>
+                    </td>
                   </tr>
                   <tr>
                     <td scope="row">Shining</td>
                     <td class="d-none d-lg-table-cell">-</td>
-                    <td><span class="badge text-bg-success">Disponibile</span></td>
-                    <td>@social</td>
+                    <td>
+                      <span class="badge text-bg-success">Disponibile</span>
+                    </td>
+                    <td class="d-flex gap-1">
+                      <button class="btn p-1 btn-outline-secondary">
+                        <i class="fa-solid fa-pencil"></i>
+                      </button>
+                      <button class="btn p-1 btn-outline-secondary">
+                        <i class="fa-solid fa-trash opacity-80"></i>
+                      </button>
+                    </td>
                   </tr>
                   <tr>
                     <td scope="row">La divina commedia</td>
                     <td class="d-none d-lg-table-cell">05/05/25</td>
-                    <td><span class="badge text-bg-warning text-light">In prestito</span></td>
-                    <td>@mdo</td>
+                    <td>
+                      <span class="badge text-bg-warning text-light"
+                        >In prestito</span
+                      >
+                    </td>
+                    <td class="d-flex gap-1">
+                      <button class="btn p-1 btn-outline-secondary">
+                        <i class="fa-solid fa-pencil"></i>
+                      </button>
+                      <button class="btn p-1 btn-outline-secondary">
+                        <i class="fa-solid fa-trash opacity-80"></i>
+                      </button>
+                    </td>
                   </tr>
                   <tr>
                     <td scope="row">Il trono di spade</td>
                     <td class="d-none d-lg-table-cell">-</td>
-                    <td><span class="badge text-bg-danger">Non disponibile</span></td>
-                    <td>@fat</td>
+                    <td>
+                      <span class="badge text-bg-danger">Non disponibile</span>
+                    </td>
+                    <td class="d-flex gap-1">
+                      <button class="btn p-1 btn-outline-secondary">
+                        <i class="fa-solid fa-pencil"></i>
+                      </button>
+                      <button class="btn p-1 btn-outline-secondary">
+                        <i class="fa-solid fa-trash opacity-80"></i>
+                      </button>
+                    </td>
                   </tr>
                   <tr>
                     <td scope="row">Il mondo di sofia</td>
                     <td class="d-none d-lg-table-cell">-</td>
-                    <td><span class="badge text-bg-danger">Non disponibile</span></td>
-                    <td>@social</td>
+                    <td>
+                      <span class="badge text-bg-danger">Non disponibile</span>
+                    </td>
+                    <td class="d-flex gap-1">
+                      <button class="btn p-1 btn-outline-secondary">
+                        <i class="fa-solid fa-pencil"></i>
+                      </button>
+                      <button class="btn p-1 btn-outline-secondary">
+                        <i class="fa-solid fa-trash opacity-80"></i>
+                      </button>
+                    </td>
                   </tr>
                   <tr>
                     <td scope="row">Le cronache di narnia</td>
                     <td class="d-none d-lg-table-cell">26/06/23</td>
-                    <td><span class="badge text-bg-warning text-light">In prestito</span></td>
-                    <td>@mdo</td>
+                    <td>
+                      <span class="badge text-bg-warning text-light"
+                        >In prestito</span
+                      >
+                    </td>
+                    <td class="d-flex gap-1">
+                      <button class="btn p-1 btn-outline-secondary">
+                        <i class="fa-solid fa-pencil"></i>
+                      </button>
+                      <button class="btn p-1 btn-outline-secondary">
+                        <i class="fa-solid fa-trash opacity-80"></i>
+                      </button>
+                    </td>
                   </tr>
                   <tr>
                     <td scope="row">Il piccolo principe</td>
                     <td class="d-none d-lg-table-cell my-favorite">-</td>
-                    <td><span class="badge text-bg-success">Disponibile</span></td>
-                    <td>@fat</td>
+                    <td>
+                      <span class="badge text-bg-success">Disponibile</span>
+                    </td>
+                    <td class="d-flex gap-1">
+                      <button class="btn p-1 btn-outline-secondary">
+                        <i class="fa-solid fa-pencil"></i>
+                      </button>
+                      <button class="btn p-1 btn-outline-secondary">
+                        <i class="fa-solid fa-trash opacity-80"></i>
+                      </button>
+                    </td>
                   </tr>
                   <tr>
                     <td scope="row">3</td>
                     <td class="d-none d-lg-table-cell">La storia infinita</td>
-                    <td><span class="badge text-bg-success">Disponibile</span></td>
-                    <td>@social</td>
+                    <td>
+                      <span class="badge text-bg-success">Disponibile</span>
+                    </td>
+
+                    <td class="d-flex gap-1">
+                      <button class="btn p-1 btn-outline-secondary">
+                        <i class="fa-solid fa-pencil"></i>
+                      </button>
+                      <button class="btn p-1 btn-outline-secondary">
+                        <i class="fa-solid fa-trash opacity-80"></i>
+                      </button>
+                    </td>
                   </tr>
                 </tbody>
               </table>
