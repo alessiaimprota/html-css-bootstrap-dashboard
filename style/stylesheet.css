@@ -1,4 +1,5 @@
 /*
+
 #navbar-placeholder{
     background-color: white;
     color: grey
@@ -7,4 +8,10 @@
 #navbar-placeholder::placeholder {
   color: grey;
 }
+
+
+ho usato la regola navbar-dark anche se sconsigliata da bootstrap solo per avere il background 
+di inpunt e il placeholder del colore che dicevo io solo usando bootstrap
+
+mi sono incaponita non si fa, ma lascio comunque come avevo modificato la cosa in css
 */
