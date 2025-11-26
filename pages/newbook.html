@@ -98,6 +98,8 @@
               id="name-author"
               required=""
               value=""
+              pattern="[A-Za-zÀ-ùà-éèìòù'\-\s]{2,}"
+              title="Inserisci un nome valido"
             />
           </div>
 
@@ -111,6 +113,8 @@
               id="surname-author"
               required=""
               value=""
+              pattern="[A-Za-zÀ-ùà-éèìòù'\-\s]{2,}"
+              title="Inserisci un nome valido"
             />
           </div>
 
@@ -120,7 +124,7 @@
               type="text"
               class="form-control mt-2"
               placeholder="Inserisci titolo del libro"
-              aria-label="Last name"
+              aria-label="title-book"
               id="title"
               required=""
               value=""
@@ -167,6 +171,8 @@
               aria-label="isbn"
               id="code-isbn"
               required=""
+              pattern="[0-9]{13}"
+            title="Inserisci 13 cifre numeriche"
             />
           </div>
 
@@ -192,7 +198,7 @@
                 id="checkDefault"
               />
               <label class="form-check-label" for="checkDefault">
-                Default checkbox
+                Disponibile versione online
               </label>
             </div>
           </div>
@@ -201,7 +207,7 @@
             <button class="btn btn-primary" type="submit">
               <font dir="auto" style="vertical-align: inherit">
                 <font dir="auto" style="vertical-align: inherit"
-                  >Invia modulo
+                  >Aggiungi libro
                 </font></font
               >
             </button>
